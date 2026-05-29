@@ -1,13 +1,13 @@
-const j = document.querySelector("#h1");
+// const j = document.querySelector("#h1");
 
-const text = j.textContent
+// const text = j.textContent
 
-for(let i = 0; i < text.length; i++) {
-    console.log(text[i]);
-};
+// for(let i = 0; i < text.length; i++) {
+//     console.log(text[i]);
+// };
 
-console.log(j);
-console.log(text);
+// console.log(j);
+// console.log(text);
 // return fetch("https://jsonplaceholder.typicode.com/todos")
 
 const get = async () => {
