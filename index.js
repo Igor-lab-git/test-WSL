@@ -12,13 +12,21 @@
 
 const get = async () => {
     return new Promise(res => setTimeout(() => {
-         res("JENNA")
+        res("JENNA")
     }, 2000))
 };
 
-const somthing = await get();
+const func = async () => {
+    const somthing = await get();
 
-console.log(somthing);
+    console.log(somthing);
+};
+
+func()
+
+
+
+console.log("Jenna");
 
 
 
